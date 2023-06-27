@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "scripts": {
+    "start": "node start-dev.js",
+    "start:frontend": "react-scripts start",
+    "start:backend": "node backend/server.js"
+  }
+}
